@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section>
+    <label class="label  changeBgColor">
+      <div class="toggle">
+        <input class="toggle-state" type="checkbox" name="check" value="check" />
+        <div class="indicator"></div>
+      </div>
+    </label>
+  </section>
+
+  <div class="container">
+    <div class="wrapper">
+      <form action="#">
+        <h2>Login Form</h2>
+        <div class="emailFild">
+          <input type="email" required>
+          <label>Enter your email</label>
+        </div>
+
+
+        <div class="passwordFild">
+          <input type="password" required>
+          <label class="error">Enter your password</label>
+          <span class="eyeBtn"><i class="fa-solid fa-eye-slash"></i></span>
+        </div>
+
+
+
+        <div class="forget">
+          <label for="remember">
+            <input type="checkbox" id="remember">
+            <p>Remember me</p>
+          </label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit">Log In</button>
+        <div class="register">
+          <p>Don't have an account? <a href="#">Register</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
